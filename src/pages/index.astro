@@ -1,5 +1,6 @@
 ---
 import '@/styles/globals.css';
+import { NavigationMenu } from '@/components/NavigationMenu';
 import { ModeToggle } from '@/components/ModeToggle';
 ---
 
@@ -24,7 +25,7 @@ import { ModeToggle } from '@/components/ModeToggle';
  
 <html lang="en">
 	<body>
-      <h1>Astro</h1>
-      <ModeToggle client:load />
+		<NavigationMenu />
+      	<ModeToggle client:load />
 	</body>
 </html>
